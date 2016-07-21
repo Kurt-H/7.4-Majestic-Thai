@@ -1,0 +1,35 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner,
+.menu-header,
+.order-header {
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+}
+
+.price{
+  border: none;
+}
+
+.order-header{
+  margin-top: 25px;
+}
