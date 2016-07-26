@@ -4,7 +4,7 @@ var MenuItem = require('./menuItem');
 
 
 var MenuCollection = Backbone.Collection.extend({
-  model: MenuItem,
+  model: MenuItem
 });
 
 module.exports = MenuCollection;
